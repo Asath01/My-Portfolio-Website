@@ -30,6 +30,16 @@ function type() {
   setTimeout(type, 100);
 }
 
+function hireMe() {
+  let phone = "+94711310848";
+
+  let message =
+    "Hello, I saw your portfolio website and I am interested in your web development services.";
+
+  let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+
+  window.open(url, "_blank");
+}
 type();
 
 // particles background
